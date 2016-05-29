@@ -25,6 +25,8 @@ import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
+import com.mikepenz.aboutlibraries.Libs
+import com.mikepenz.aboutlibraries.LibsBuilder
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.*
 
@@ -52,6 +54,17 @@ class MainActivity : AppCompatActivity(), AnkoLogger {
         callButton.onClick {
             callButtonClicked()
         }
+        infoButton.onClick {
+            infoButtonClicked()
+        }
+    }
+
+    private fun infoButtonClicked() {
+        val exLibraries = resources.getStringArray(R.array.excludedLibraries)
+        LibsBuilder().apply {
+            withActivityStyle(Libs.ActivityStyle.DARK)
+            excludeLibraries = exLibraries
+        }.start(this)
     }
 
     private fun callButtonClicked() {

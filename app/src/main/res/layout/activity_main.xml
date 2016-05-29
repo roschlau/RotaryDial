@@ -85,4 +85,15 @@
             android:src="@drawable/ic_call_white_24px"
             android:contentDescription="@string/call_button_alt_text"/>
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/infoButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:clickable="true"
+        android:background="@drawable/round_electable_item_background"
+        android:src="@drawable/ic_info_outline_white_24px"
+        android:contentDescription="@string/info_button_alt_text"/>
 </LinearLayout>

@@ -37,7 +37,7 @@ android {
         applicationId "com.rrpictureproductions.rotarydialer"
         minSdkVersion 21
         targetSdkVersion 23
-        versionCode 4
+        versionCode 5
         versionName "1.0"
     }
     buildTypes {
@@ -61,6 +61,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile 'org.jetbrains.anko:anko-sdk15:0.8.3'
+    compile('com.mikepenz:aboutlibraries:5.6.6@aar') {
+        transitive = true
+    }
 }
 repositories {
     mavenCentral()

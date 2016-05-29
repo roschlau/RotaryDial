@@ -20,4 +20,15 @@
     <string name="hold_backspace_hint">To delete the whole number at once, hold the delete button!</string>
     <string name="backspace_button_alt_text">Backspace Button</string>
     <string name="call_button_alt_text">Call Button</string>
+    <string name="info_button_alt_text">Info Button</string>
+    <string name="aboutLibraries_description_showIcon" translatable="false">true</string>
+    <string name="aboutLibraries_description_showVersion" translatable="false">true</string>
+    <string name="aboutLibraries_description_name" translatable="false">@string/app_name</string>
+    <string name="aboutLibraries_description_text">This app is open source and published under the GNU General Public License. For more information visit the GitHub repository: https://github.com/Hikaru755/RotaryDial/</string>
+    <array name="excludedLibraries">
+        <item>intellijannotations</item>
+        <item>appcompat_v7</item>
+        <item>recyclerview_v7</item>
+        <item>support_v4</item>
+    </array>
 </resources>

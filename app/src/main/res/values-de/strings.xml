@@ -21,4 +21,6 @@
     <string name="hold_backspace_hint">Um die ganze Nummer zu löschen, halte den Button gedrückt!</string>
     <string name="backspace_button_alt_text">Löschen Button</string>
     <string name="call_button_alt_text">Anrufen Button</string>
+    <string name="info_button_alt_text">Info Button</string>
+    <string name="aboutLibraries_description_text">Diese App ist Open Source und steht unter der GNU General Public License. Für weitere Informationen besuche das GitHub Repository: https://github.com/Hikaru755/RotaryDial/</string>
 </resources>
