@@ -1,9 +1,11 @@
 # RotaryDial
-![Launcher Icon](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
 A very simple but beautiful rotary dialer app.
 If you want some nostalgia without having to sacrifice the consistent
 Material Design of the Android platform, this app is for you.
 
+<img src="images/screenshot_number.png" align="left"
+width="200"
+    hspace="10" vspace="10">
 ## About the App
 This app started as a personal learning project for me in creating
 custom views. The first result turned out quite good and I thought, why
